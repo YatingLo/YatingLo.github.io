@@ -123,5 +123,5 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:YatingLo/YatingLo.github.io.git
-  branch: master
+  branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm') }}"
