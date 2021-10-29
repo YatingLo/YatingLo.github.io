@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hannah's Programing Notes
 subtitle: ''
-description: ''
+description:
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Hannah Lo
+language: zh-tw
+timezone: Taipei
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://YatingLo.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -68,7 +68,24 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  Language: language
+  App: app
+  Web: web
+  Console: console
+  DevOps: dev-ops
 tag_map:
+  cpp: language
+  python: language
+  dart: language
+  ruby: language
+  groovy: language
+  ios: app
+  android: app
+  rails: web
+  angular: web
+  hexo: web
+  github-action: dev-ops
+  jenkins: dev-ops
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -101,5 +118,10 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
+## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:YatingLo/YatingLo.github.io.git
+  branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm') }}"
