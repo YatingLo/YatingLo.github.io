@@ -73,7 +73,6 @@ category_map:
   Language: language
   App: app
   Web: web
-  Console: console
   DevOps: dev-ops
 tag_map:
   cpp: language
@@ -81,6 +80,7 @@ tag_map:
   dart: language
   ruby: language
   groovy: language
+  c#: language
   ios: app
   android: app
   rails: web
