@@ -1,16 +1,16 @@
 # ========== Profile ========== #
 # avatar
-avatar: /avatar/Misaka.jpg
+avatar: 'https://avatars.githubusercontent.com/u/1485535?v=4'
 # author name
 author: YatingLo(Hannah)
 # signature
 signature: witness me
 # SNS (you can custom the order)
 social:
-  email: 12345@qq.com
+  email: yatinglo@yahoo.com.tw
   github: //github.com/YatingLo
   # wechat should be a path of qr-code image path
-  wechat: /assets/example_qr.png
+  wechat:
   # qq should be a path of qr-code image path
   qq:
   telegram:
@@ -25,7 +25,7 @@ social:
   juejin:
   v2ex:
   bilibili:
-  linkedin:
+  linkedin: //www.linkedin.com/in/hannah-lo-469a2185/
   steam:
   others:
   rss:
@@ -38,11 +38,11 @@ about:
   image: '/intro/about-bg.jpg'
 # Search for website
 search:
-  enable: false
+  enable: true
   # Seach URL, must be set. For example: 'fi3ework.github.io'
-  url:
+  url: yatinglo.github.io/
   # Search engine: 'bing' (default), 'google' or 'baidu'
-  engine: bing
+  engine: google
 # Display icons of friends, about and search
 # You can only use free icons started with 'fab' and 'fas' by default
 # https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free
@@ -62,16 +62,17 @@ profile_links:
 
 # ========== Site ========== #
 # title of the site (good for SEO)
-SEO_title: fi3ework's Studio
+SEO_title: Learn for yourself
 # keywords for site (good for SEO)
 SEO_keywords:
-  - hexo
-  - 'hexo-theme'
-  - 'hexo-blog'
+  - program
+  - 'C++'
+  - 'python'
+  - 'design-pattern'
 # main title shown in header image
-main_title: fi3ework's Studio.
+main_title: Learn for Yourself
 # subtitle
-subtitle: it's better to burn out than to fade away
+subtitle: Learn to Work Harder on Yourself Than You Do on Your Job
 # site haeder image
 site_header_image: '/intro/index-bg.jpg'
 # post haeder image
