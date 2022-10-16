@@ -9,7 +9,7 @@ description:
 keywords:
 author: Hannah Lo
 language: zh-tw
-timezone: Taipei
+timezone: Asia/Taipei
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -41,8 +41,9 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
-prependRoot: true
-postAsset: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: true
 future: true
 highlight:
