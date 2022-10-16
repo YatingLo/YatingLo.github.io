@@ -19,18 +19,22 @@
         <meta name="keywords" content="hexo,hexo-theme,hexo-blog,program,C++,python,design-pattern">
     
     <meta name="description" content="">
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hannah&#39;s Programing Notes">
-<meta property="og:url" content="https://yatinglo.github.io/index.html">
+    <meta name="description" content="是 cocos2d-x 遊戲客戶端工程師，熟悉 c++ 與 android, ios 跨平臺開發。現在結合 ruby, python, jenkins 爲團隊製作 CI&#x2F;CD 流程與自動化工具。未來會持續學習補充 c++, python, 技術管理相關知識。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="about">
+<meta property="og:url" content="https://yatinglo.github.io/about/index.html">
 <meta property="og:site_name" content="Hannah&#39;s Programing Notes">
+<meta property="og:description" content="是 cocos2d-x 遊戲客戶端工程師，熟悉 c++ 與 android, ios 跨平臺開發。現在結合 ruby, python, jenkins 爲團隊製作 CI&#x2F;CD 流程與自動化工具。未來會持續學習補充 c++, python, 技術管理相關知識。">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2022-10-15T13:56:22.000Z">
+<meta property="article:modified_time" content="2022-10-16T20:02:07.829Z">
 <meta property="article:author" content="Hannah Lo">
 <meta name="twitter:card" content="summary">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="icon" href="../assets/favicon.ico">
     
-    <title>Learn for yourself</title>
+    <title>about · Learn for yourself</title>
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -143,7 +147,7 @@
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
-        src: url("/font/Oswald-Regular.ttf");
+        src: url("../font/Oswald-Regular.ttf");
     }
 
     body {
@@ -191,15 +195,15 @@
     }
 </style>
 
-    <link rel="preload" href="css/style.css?v=20211217" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="css/dark.css?v=20211217" as="style">
-    <link rel="stylesheet" href="css/dark.css">
-    <link rel="stylesheet" href="css/mobile.css?v=20211217" media="(max-width: 960px)">
+    <link rel="preload" href="../css/style.css?v=20211217" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../css/dark.css?v=20211217" as="style">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/mobile.css?v=20211217" media="(max-width: 960px)">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" as="script">
-    <link rel="preload" href="scripts/main.js?v=20211217" as="script">
-    <link rel="preload" href="scripts/dark.js?v=20211217" as="script">
-    <link rel="preload" href="font/Oswald-Regular.ttf" as="font" crossorigin>
+    <link rel="preload" href="../scripts/main.js?v=20211217" as="script">
+    <link rel="preload" href="../scripts/dark.js?v=20211217" as="script">
+    <link rel="preload" href="../font/Oswald-Regular.ttf" as="font" crossorigin>
     <link rel="preload" href="https://at.alicdn.com/t/font_327081_1dta1rlogw17zaor.woff" as="font" crossorigin>
     <!-- algolia -->
     
@@ -213,14 +217,14 @@
     <script type="text/javascript">
         if (typeof window.$ == undefined) {
             console.warn('jquery load from jsdelivr failed, will load local script')
-            document.write('<script src="lib/jquery.min.js" />')
+            document.write('<script src="../lib/jquery.min.js" />')
         }
     </script>
     
-        <body class="home-body">
+        <body class="about-body">
     
         <!-- header -->
-        <header class="header header-mobile index-header">
+        <header class="header header-mobile">
     <!-- top read progress line -->
     <div class="header-element">
         <div class="read-progress"></div>
@@ -251,7 +255,7 @@
 </header>
 
         <!-- fixed footer -->
-        <footer class="footer-fixed index-footer-fixed">
+        <footer class="footer-fixed">
     <!-- back to top button -->
     <div class="footer-fixed-element">
         
@@ -281,27 +285,20 @@
     <!-- 主页  -->
     
         
-    <!-- 文章页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/index-bg.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(../intro/about-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
-                Learn for Yourself
-            <!-- 文章页  -->
+                about
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
-            
-                
-                    Learn to Work Harder on Yourself Than You Do on Your Job
-                
-            <!-- 文章页  -->
             
         </p>
         <!-- 文章页 meta -->
@@ -425,146 +422,24 @@
     [
       'https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js',
       'https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js',
-      "lib/webfontloader.min.js",
+      "../lib/webfontloader.min.js",
     ],
     asyncCb,
     asyncErr
   )
 </script>
 
-            <img class="loading" src="assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
+            <img class="loading" src="../assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
             <div class="container container-unloaded">
-                <main class="main index-page">
-    
-        
-        
-        
-        
-            
-        
-        <article class="index-post">
-            <a class="abstract-title" href="2021/10/29/hello-world/">
-                
-                <span class="abstract-title-text">Hello World</span>
-            </a>
-            <div class="abstract-content">
-                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+                <!-- 不可以删除，否则会调用 post 的 layout -->
+<main class="main about-page">
+    <article class="article-entry">
+        <p>是 cocos2d-x 遊戲客戶端工程師，熟悉 c++ 與 android, ios 跨平臺開發。<br>現在結合 ruby, python, jenkins 爲團隊製作 CI&#x2F;CD 流程與自動化工具。<br>未來會持續學習補充 c++, python, 技術管理相關知識。</p>
 
-More info: Writing
-Run server1$ hexo ...
-            </div>
-            <!-- read more -->
-            
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2021/10/29">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2021/10/29</span>
-                </div>
-                <!-- tags -->
-                
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
-    
-    <!-- paginator  -->
-    
+    </article>
 </main>
 
                 <!-- profile -->
-                
-                    <div class="profile">
-    <img class="profile-avatar" alt="avatar" src= https://avatars.githubusercontent.com/u/1485535?v=4 />
-    <div class="profile-name">YatingLo(Hannah)</div>
-    
-        <div class="profile-signature">
-            witness me
-        </div>
-    
-    
-        <div class="profile-social">
-            
-    
-        
-            
-                <a href="mailto:yatinglo@yahoo.com.tw" class="iconfont-archer email" title=email ></a>
-            
-        
-    
-        
-            
-                <a href="//github.com/YatingLo" class="iconfont-archer github" target="_blank" title=github></a>
-            
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-            
-                <a href="//www.linkedin.com/in/hannah-lo-469a2185/" class="iconfont-archer linkedin" target="_blank" title=linkedin></a>
-            
-        
-    
-        
-    
-        
-    
-        
-    
-
-
-        </div>
-    
-    
-    
-        <div class="profile-link-item">
-            <a href="/about" class="about-me">
-                
-                ABOUT ME
-            </a>
-        </div>
-    
-    
-        
-        
-                
-                
-        <div class="profile-link-item">
-            <a target="_blank" rel="noopener" href="https://www.google.com/search?q=site%3Ayatinglo.github.io/" class="search-me">
-                
-                SEARCH
-            </a>
-        </div>
-    
-    
-</div>
-
                 
             </div>
             <footer class="footer footer-unloaded">
@@ -735,9 +610,9 @@ Run server1$ hexo ...
 
 
         <!-- main func -->
-        <script src="scripts/main.js?v=20211217"></script>
+        <script src="../scripts/main.js?v=20211217"></script>
         <!-- dark mode -->
-        <script src="scripts/dark.js?v=20211217"></script>
+        <script src="../scripts/dark.js?v=20211217"></script>
         <!-- fancybox -->
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
         <!-- algolia -->
