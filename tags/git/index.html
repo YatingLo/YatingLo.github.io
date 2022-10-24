@@ -19,24 +19,18 @@
         <meta name="keywords" content="hexo,hexo-theme,hexo-blog,program,C++,python,design-pattern">
     
     <meta name="description" content="">
-    <meta name="description" content="git 2.38.1 釋出，廣告打很兇的就是 microsoft scalar 的整合。scalar 是微軟開發專門處理超大型 git repository 的工具，使用了以下技術提升大型 git repo 的運行效能。  GVFS (git virtual file system) git sparse-checkout git maintenance sparse-index  啓用 git">
-<meta property="og:type" content="article">
-<meta property="og:title" content="scalar a git tool for large repositories">
-<meta property="og:url" content="https://yatinglo.github.io/2022/10/24/scalar-a-git-tool-for-large-repositories/index.html">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hannah&#39;s Programing Notes">
+<meta property="og:url" content="https://yatinglo.github.io/tags/git/index.html">
 <meta property="og:site_name" content="Hannah&#39;s Programing Notes">
-<meta property="og:description" content="git 2.38.1 釋出，廣告打很兇的就是 microsoft scalar 的整合。scalar 是微軟開發專門處理超大型 git repository 的工具，使用了以下技術提升大型 git repo 的運行效能。  GVFS (git virtual file system) git sparse-checkout git maintenance sparse-index  啓用 git">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-10-24T16:11:24.000Z">
-<meta property="article:modified_time" content="2022-10-24T16:28:18.565Z">
 <meta property="article:author" content="Hannah Lo">
-<meta property="article:tag" content="git">
-<meta property="article:tag" content="scalar">
 <meta name="twitter:card" content="summary">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="icon" href="../../../../assets/favicon.ico">
+    <link rel="icon" href="../../assets/favicon.ico">
     
-    <title>scalar a git tool for large repositories · Learn for yourself</title>
+    <title>Learn for yourself</title>
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -149,7 +143,7 @@
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
-        src: url("../../../../font/Oswald-Regular.ttf");
+        src: url("../../font/Oswald-Regular.ttf");
     }
 
     body {
@@ -197,15 +191,15 @@
     }
 </style>
 
-    <link rel="preload" href="../../../../css/style.css?v=20211217" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="../../../../css/dark.css?v=20211217" as="style">
-    <link rel="stylesheet" href="../../../../css/dark.css">
-    <link rel="stylesheet" href="../../../../css/mobile.css?v=20211217" media="(max-width: 960px)">
+    <link rel="preload" href="../../css/style.css?v=20211217" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../../css/dark.css?v=20211217" as="style">
+    <link rel="stylesheet" href="../../css/dark.css">
+    <link rel="stylesheet" href="../../css/mobile.css?v=20211217" media="(max-width: 960px)">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" as="script">
-    <link rel="preload" href="../../../../scripts/main.js?v=20211217" as="script">
-    <link rel="preload" href="../../../../scripts/dark.js?v=20211217" as="script">
-    <link rel="preload" href="../../../../font/Oswald-Regular.ttf" as="font" crossorigin>
+    <link rel="preload" href="../../scripts/main.js?v=20211217" as="script">
+    <link rel="preload" href="../../scripts/dark.js?v=20211217" as="script">
+    <link rel="preload" href="../../font/Oswald-Regular.ttf" as="font" crossorigin>
     <link rel="preload" href="https://at.alicdn.com/t/font_327081_1dta1rlogw17zaor.woff" as="font" crossorigin>
     <!-- algolia -->
     
@@ -219,11 +213,9 @@
     <script type="text/javascript">
         if (typeof window.$ == undefined) {
             console.warn('jquery load from jsdelivr failed, will load local script')
-            document.write('<script src="../../../../lib/jquery.min.js" />')
+            document.write('<script src="../../lib/jquery.min.js" />')
         }
     </script>
-    
-        <body class="post-body">
     
         <!-- header -->
         <header class="header header-mobile">
@@ -254,17 +246,6 @@
     </div>
     <!-- toggle banner for post layout -->
     
-        
-            <div class="banner">
-        
-            <div class="blog-title header-element">
-                <a href="../../../../index.html">Learn for Yourself</a>
-            </div>
-            <div class="post-title header-element">
-                <a href="#" class="post-name">scalar a git tool for large repositories</a>
-            </div>
-        </div>
-    
 </header>
 
         <!-- fixed footer -->
@@ -291,81 +272,24 @@
 
 
 
-    height:50vh;
-
 ">
     
     <!-- 主页  -->
-    
-        
-    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(../../../../intro/post-bg.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(../../index.html)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
-            
-                scalar a git tool for large repositories
-            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
-                
-            <!-- 404 -->
-            
         </p>
         <!-- 文章页 meta -->
-        
-            <div class="post-intros">
-                <!-- 文章页标签  -->
-                
-                    <div class= post-intro-tags >
-    
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="git">git</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="scalar">scalar</a>
-    
-</div>
-
-                
-                
-                    <div class="post-intro-read">
-                        <span>Word count: <span class="post-count word-count">365</span>Reading time: <span class="post-count reading-time">1 min</span></span>
-                    </div>
-                
-                <div class="post-intro-meta">
-                    <!-- 撰写日期 -->
-                    <span class="iconfont-archer post-intro-calander">&#xe676;</span>
-                    <span class="post-intro-time">2022/10/25</span>
-                    <!-- busuanzi -->
-                    
-                        <span id="busuanzi_container_page_pv" class="busuanzi-pv">
-                            <span class="iconfont-archer post-intro-busuanzi">&#xe602;</span>
-                            <span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    
-                    <!-- 文章分享 -->
-                    <span class="share-wrapper">
-                        <span class="iconfont-archer share-icon">&#xe71d;</span>
-                        <span class="share-text">Share</span>
-                        <ul class="share-list">
-                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
-                                <div class="share-qrcode"></div>
-                            </li>
-                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
-                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
-                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
-                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
-                        </ul>
-                    </span>
-                </div>
-            </div>
         
     </div>
 </div>
@@ -486,111 +410,67 @@
     [
       'https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js',
       'https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js',
-      "../../../../lib/webfontloader.min.js",
+      "../../lib/webfontloader.min.js",
     ],
     asyncCb,
     asyncErr
   )
 </script>
 
-            <img class="loading" src="../../../../assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
+            <img class="loading" src="../../assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
             <div class="container container-unloaded">
-                <main class="main post-page">
-    <article class="article-entry">
-        <p>git 2.38.1 釋出，廣告打很兇的就是 microsoft scalar 的整合。<br>scalar 是微軟開發專門處理超大型 git repository 的工具，使用了以下技術提升大型 git repo 的運行效能。</p>
-<ul>
-<li>GVFS (git virtual file system)</li>
-<li><a target="_blank" rel="noopener" href="https://git-scm.com/docs/git-sparse-checkout">git sparse-checkout</a></li>
-<li><a target="_blank" rel="noopener" href="https://git-scm.com/docs/git-maintenance">git maintenance</a></li>
-<li><a target="_blank" rel="noopener" href="https://git-scm.com/docs/sparse-index">sparse-index</a></li>
-</ul>
-<p>啓用 git scalar 目前發現有以下作用</p>
-<ul>
-<li>加速 git status 處理速度</li>
-<li>啓用一些 git 優化設定</li>
-<li>啓用 git maintance，定期在背景跑 git fetch 讓本地 repo 更新</li>
-</ul>
-<p>利用一個有 466055 個檔案的 repo 進行實測， 比較 scalar 啓用前後的 git status 效能差異。</p>
-<p>啓用前<br><code>git status  0.32s user 14.30s system 374% cpu 3.906 total</code></p>
-<p>scalar 啓用後<br><code>git status  0.08s user 0.05s system 102% cpu 0.128 total</code></p>
-<p>因爲 scalar 會每小時跑一次 maintance command，會在背景運行，吃掉一些電腦資源，所以請斟酌註冊比較耗時的 repo 即可。</p>
-<h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><p>升級 git</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew upgrade git</span><br></pre></td></tr></table></figure>
-<p>確認 git 版本在 2.38.1 以上</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git version</span><br></pre></td></tr></table></figure>
-<p>在既有 repo 下，將 repo 註冊到 git scalar，這樣就完成了！貼心 ❤️</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scalar register</span><br></pre></td></tr></table></figure>
-
-<h3 id="其他功能"><a href="#其他功能" class="headerlink" title="其他功能"></a>其他功能</h3><p>列出已註冊 scalar 的 repo</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scalar list</span><br></pre></td></tr></table></figure>
-
-<p>解除 scalar 註冊</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scalar unregister</span><br></pre></td></tr></table></figure>
-
-<h2 id="尚未嘗試"><a href="#尚未嘗試" class="headerlink" title="尚未嘗試"></a>尚未嘗試</h2><p>scalar clone 需要 Azure Repo 才能使用 GVFS protocol，且目前 GVFS 不能跟 git lfs 一同使用。所以這部分沒有玩過 XD</p>
-<h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://git-scm.com/docs/scalar">https://git-scm.com/docs/scalar</a></li>
-<li><a target="_blank" rel="noopener" href="https://devblogs.microsoft.com/devops/introducing-scalar/">https://devblogs.microsoft.com/devops/introducing-scalar/</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/microsoft/scalar">https://github.com/microsoft/scalar</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/microsoft/git/blob/HEAD/contrib/scalar/docs/getting-started.md">https://github.com/microsoft/git/blob/HEAD/contrib/scalar/docs/getting-started.md</a></li>
-<li><a target="_blank" rel="noopener" href="https://devblogs.microsoft.com/devops/introducing-scalar/">https://devblogs.microsoft.com/devops/introducing-scalar/</a></li>
-</ul>
-
-    </article>
-    <!-- license -->
+                <main class="main index-page">
     
-        <div class="license-wrapper">
-            <p>Author：<a href="https://YatingLo.github.io">Hannah Lo</a>
-            <p>Link：<a href="https://yatinglo.github.io/2022/10/24/scalar-a-git-tool-for-large-repositories/">https://yatinglo.github.io/2022/10/24/scalar-a-git-tool-for-large-repositories/</a>
-            <p>Publish date：<a href="https://yatinglo.github.io/2022/10/24/scalar-a-git-tool-for-large-repositories/">October 24th 2022, 4:11:24 pm</a>
-            <p>Update date：<a href="https://yatinglo.github.io/2022/10/24/scalar-a-git-tool-for-large-repositories/">October 24th 2022, 4:28:18 pm</a>
-            <p>License：本文采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
-        </div>
+        
+        
+        
+        
+            
+        
+        <article class="index-post">
+            <a class="abstract-title" href="../../2022/10/24/scalar-a-git-tool-for-large-repositories/">
+                
+                <span class="abstract-title-text">scalar a git tool for large repositories</span>
+            </a>
+            <div class="abstract-content">
+                git 2.38.1 釋出，廣告打很兇的就是 microsoft scalar 的整合。scalar 是微軟開發專門處理超大型 git repository 的工具，使用了以下技術提升大型 git repo 的運行效能。
+
+GVFS (git virtual file system)
+git sparse-checkout
+git maintenance
+sparse-index
+
+啓用 git scalar 目前發現有以下作用
+
+加速 git status 處理速度
+啓用一些 git 優化設定
+啓用 git maintance，定期在背景跑 git fetch 讓本地 repo 更新
+...
+            </div>
+            <!-- read more -->
+            
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2022/10/25">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/10/25</span>
+                </div>
+                <!-- tags -->
+                
+                    <div class= abstract-tags >
     
-    <!-- paginator -->
-    <ul class="post-paginator">
-        <li class="next">
-            
-        </li>
-        <li class="previous">
-            
-                <div class="prevSlogan">Previous Post</div>
-                <a href="../../../../2021/10/29/hello-world/" title="Hello World">
-                    <div class="prevTitle">Hello World</div>
-                </a>
-            
-        </li>
-    </ul>
-    <!-- comment -->
     
-        <div class="post-comment">
-            <!-- 来必力 City 版安装代码 -->
-
-
-            
-
-            
-
-            
-
-            <!-- utteranc评论 -->
-
-
-            <!-- partial('_partial/comment/changyan') -->
-            <!--PC版-->
-
-
-            
-            
-
-            
-
-        </div>
+        <a class="post-tag" href="javascript:void(0);" data-tags="git">git</a>
     
-    <!-- timeliness note -->
-    <!-- idea from: https://hexo.fluid-dev.com/posts/hexo-injector/#%E6%96%87%E7%AB%A0%E6%97%B6%E6%95%88%E6%80%A7%E6%8F%90%E7%A4%BA -->
+        <a class="post-tag" href="javascript:void(0);" data-tags="scalar">scalar</a>
     
-    <!-- Mathjax -->
+</div>
+
+                
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+    
+    <!-- paginator  -->
     
 </main>
 
@@ -678,23 +558,6 @@
 
         </div>
         <!-- toc -->
-        
-            <div class="toc-wrapper toc-wrapper-loding" style=
-
-
-
-
-
-
-
-    top:50vh;
-
->
-                <div class="toc-catalog">
-                    <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
-                </div>
-                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">1.</span> <span class="toc-text">使用方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%8A%9F%E8%83%BD"><span class="toc-number">1.1.</span> <span class="toc-text">其他功能</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%9A%E6%9C%AA%E5%98%97%E8%A9%A6"><span class="toc-number">2.</span> <span class="toc-text">尚未嘗試</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="toc-number">3.</span> <span class="toc-text">參考資料</span></a></li></ol>
-            </div>
         
         <!-- sidebar -->
         <div class="sidebar sidebar-hide">
@@ -814,9 +677,9 @@
 
 
         <!-- main func -->
-        <script src="../../../../scripts/main.js?v=20211217"></script>
+        <script src="../../scripts/main.js?v=20211217"></script>
         <!-- dark mode -->
-        <script src="../../../../scripts/dark.js?v=20211217"></script>
+        <script src="../../scripts/dark.js?v=20211217"></script>
         <!-- fancybox -->
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
         <!-- algolia -->
@@ -829,16 +692,7 @@
         
         <!-- async load share.js -->
         
-            <script src="../../../../scripts/share.js?v=20211217" async></script>
-        
         <!-- mermaid -->
-        
-            <script src='https://cdn.jsdelivr.net/npm/mermaid@8.11.0/dist/mermaid.min.js'></script>
-            <script>
-                if (window.mermaid) {
-                    mermaid.initialize({theme: 'dark'});
-                }
-            </script>
         
     </body>
 </html>
