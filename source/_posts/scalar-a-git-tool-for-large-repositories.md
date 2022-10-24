@@ -56,6 +56,11 @@ scalar list
 scalar unregister
 ```
 
+自行啓動定時作業
+```
+scalar run all
+```
+
 ## 尚未嘗試
 
 scalar clone 需要 Azure Repo 才能使用 GVFS protocol，且目前 GVFS 不能跟 git lfs 一同使用。所以這部分沒有玩過 XD
