@@ -76,19 +76,7 @@ category_map:
   Web: web
   DevOps: dev-ops
 tag_map:
-  cpp: language
-  python: language
-  dart: language
-  ruby: language
-  groovy: language
-  c#: language
-  ios: app
-  android: app
-  rails: web
-  angular: web
-  hexo: web
-  github-action: dev-ops
-  jenkins: dev-ops
+
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
